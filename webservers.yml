@@ -9,5 +9,5 @@
 
   - name: Please Start the Webserver on Ubuntu
     service:
-      name: httpd
+      name: apache2
       state: started
