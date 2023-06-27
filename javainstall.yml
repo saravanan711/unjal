@@ -4,5 +4,6 @@
    tasks:
     - name: install JAVA on Ubuntu
       apt:
-       name: "{{myjavainstall}}"
-       state: present
+        name: "{{myjavainstall}}"
+        state: present
+      when: ansile_os_family == "Debian"
