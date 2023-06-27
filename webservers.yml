@@ -4,7 +4,7 @@
   tasks:
   - name: Install the webserver on Ubuntu
     apt:
-     name: "{{mypacheinstall}}"
+     name: "{{myjavainstall}}"
      state: present
 
   - name: Please Start the Webserver on Ubuntu

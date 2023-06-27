@@ -1,2 +1,3 @@
 ---
 mypacheinstall: apache2
+myjavainstall: openjdk-8-jre
