@@ -1,3 +1,3 @@
 ---
-mypacheinstall: apache2
+myapacheinstall: apache2
 myjavainstall: openjdk-11-jre

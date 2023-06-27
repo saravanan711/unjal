@@ -2,9 +2,9 @@
 - hosts: webservers
   become: yes
   tasks:
-  - name: Install the webserjava on Ubuntu
+  - name: Install the webserver on Ubuntu
     apt:
-     name: "{{myjavainstall}}"
+     name: "{{myapacheinstall}}"
      state: present
 
   - name: Please Start the Webserver on Ubuntu
