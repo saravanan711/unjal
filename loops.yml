@@ -4,8 +4,8 @@
    tasks:
     - name: Install Multiple tasks
       apt:
-       name: 
-       state: present
+        name: 
+        state: present
       loops:
        - git
        - tree
