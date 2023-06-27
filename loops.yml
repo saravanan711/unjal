@@ -2,11 +2,11 @@
  - hosts: 172.31.5.245
    become: yes
    tasks:
-    - name: Install Multiple tasks
-      apt:
+     - name: Install Multiple tasks
+       apt:
         name: 
         state: present
-      loops:
+       loops:
        - git
        - tree
        - wget 
