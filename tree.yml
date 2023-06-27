@@ -1,0 +1,9 @@
+---
+ - hosts: webservers
+   become: yes
+   tasks:
+    - name: Install Tree on my wenservers
+      apt:
+       name: "{{myinstalltree}}"
+       state: present
+      when: ansible_os_family == "Debian" 
