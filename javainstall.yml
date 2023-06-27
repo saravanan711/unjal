@@ -6,4 +6,4 @@
       apt:
         name: "{{myjavainstall}}"
         state: present
-      when: ansile_os_family == "Debian"
+    when: ansile_os_family == "Debian"
