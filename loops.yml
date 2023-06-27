@@ -4,7 +4,7 @@
    tasks:
      - name: Install Multiple tasks
        apt:
-        name: 
+        name:"{{ item }}" 
         state: present
        loops:
        - git
