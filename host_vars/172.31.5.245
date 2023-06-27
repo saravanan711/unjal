@@ -1,2 +1,2 @@
 ---
-myjavainstall: default-jre
+myjavainstall: openjdk-8-jre
