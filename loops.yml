@@ -11,3 +11,5 @@
        - tree
        - wget 
        - python3
+       - gnome-chess
+       - rhythmbox
