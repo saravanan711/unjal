@@ -17,3 +17,8 @@
        name: wget
        state: present
       tags: mywget    
+    - name: Install Python
+      apt:
+       name: Python3
+       state: present
+      tags: mypython
