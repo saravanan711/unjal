@@ -3,8 +3,8 @@
 - name: Install the webserver
   apt:
     name: apache2
-    state: present
+    state: absent
 - name: Install Tree
   apt: 
     name: tree
-    state: present
+    state: absent
